@@ -8,7 +8,6 @@
 import Foundation
 protocol EndPointProtcol {
     var baseURL: String { get }
-    var params: [String: Any] { get }
     var path: String { get }
     var urlRequest: URLRequest? { get }
 }
